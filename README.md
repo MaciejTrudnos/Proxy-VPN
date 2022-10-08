@@ -1,6 +1,6 @@
 # Proxy-VPN
 
-[![Docker](https://img.shields.io/badge/container-Docker-blue?logo=docker&logoColor=white)](https://hub.docker.com/repository/docker/maciejtrudnos/proxy-vpn)
+[![Docker](https://img.shields.io/badge/container-Docker-blue?logo=docker&logoColor=white)](https://hub.docker.com/r/maciejtrudnos/proxy-vpn)
 
 [Docker](https://www.docker.com/) container image for [Squid proxy server](http://www.squid-cache.org/) and [OpenVPN](https://openvpn.net).
 
