@@ -1,0 +1,15 @@
+ubuntu:
+  image: maciejtrudnos/proxy-vpn
+  container_name: proxy-vpn-container
+  volumes:
+    - /path/to/ovpn-files:/etc/openvpn/configurations
+  ports:
+    - 3128:3128
+  tty: true
+  cap_add:
+    - NET_ADMIN
+  environment:
+    openvpn_file_name:ovpn-file-use-to-connect.ovpn
+  dns:
+    - 8.8.8.8
+    - 8.8.4.4
