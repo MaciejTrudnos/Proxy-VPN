@@ -1,21 +1,25 @@
 # Proxy-VPN
 
-[![Docker](https://img.shields.io/badge/container-Docker-blue?logo=docker&logoColor=white)](https://hub.docker.com/r/maciejtrudnos/proxy-vpn)
+[![Docker](https://img.shields.io/badge/dockerhub-maciejtrudnos/proxy--vpn-blue?logo=docker&logoColor=white)](https://hub.docker.com/r/maciejtrudnos/proxy-vpn)
 
 [Docker](https://www.docker.com/) container image for [Squid proxy server](http://www.squid-cache.org/) and [OpenVPN](https://openvpn.net).
 
 Proxy Squid separate end users from the websites they browse using OpenVPN secure connection
 
 ## Getting started
-Building image
+Pull docker image from dockerhub
+```sh
+$ docker pull maciejtrudnos/proxy-vpn
+```
+or build image
 ```sh
 $ docker build -t maciejtrudnos/proxy-vpn .
 ```
-Creating single container by docker-compose
+Create single container by docker-compose
 ```sh
 $ docker-compose -f single-proxy-vpn.yml up -d
 ```
-Creating multiple containers by docker-compose
+Create multiple containers by docker-compose
 ```sh
 $ docker-compose -f multiple-proxy-vpn.yml up -d
 ```
