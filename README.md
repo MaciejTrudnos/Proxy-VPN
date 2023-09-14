@@ -2,7 +2,7 @@
 
 [![Docker](https://img.shields.io/badge/dockerhub-maciejtrudnos/proxy--vpn-blue?logo=docker&logoColor=white)](https://hub.docker.com/r/maciejtrudnos/proxy-vpn)
 
-[Docker](https://www.docker.com/) container image for [Squid proxy server](http://www.squid-cache.org/) and [OpenVPN](https://openvpn.net).
+[Docker](https://www.docker.com/) image for [Squid proxy server](http://www.squid-cache.org/) and [OpenVPN](https://openvpn.net).
 
 Proxy Squid separate end users from the websites they browse using OpenVPN secure connection
 
